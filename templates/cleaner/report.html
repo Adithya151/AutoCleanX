@@ -1,0 +1,79 @@
+{% extends "cleaner/base.html" %}
+{% block content %}
+
+<div class="animate-fade-in">
+    
+    <!-- Header -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h3 class="fw-bold mb-0"><i class="fa-solid fa-chart-line me-2 text-primary"></i>Cleaning Report</h3>
+        <a href="{% url 'download' %}" class="btn btn-primary btn-lg shadow">
+            <i class="fa-solid fa-download me-2"></i> Download Cleaned Data
+        </a>
+    </div>
+
+    <!-- Summary Cards -->
+    <div class="row g-3 mb-4">
+        <div class="col-md-3">
+            <div class="custom-card p-3 text-center border-bottom border-primary border-4">
+                <small class="text-muted text-uppercase fw-bold">Rows (Before)</small>
+                <h2 class="display-6 fw-bold my-2">{{ before.rows }}</h2>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="custom-card p-3 text-center border-bottom border-success border-4">
+                <small class="text-muted text-uppercase fw-bold">Rows (After)</small>
+                <h2 class="display-6 fw-bold my-2">{{ after.rows }}</h2>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="custom-card p-3 text-center border-bottom border-danger border-4">
+                <small class="text-muted text-uppercase fw-bold">Missing (Fixed)</small>
+                <h2 class="display-6 fw-bold my-2">{{ before.missing_values }}</h2>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="custom-card p-3 text-center border-bottom border-info border-4">
+                <small class="text-muted text-uppercase fw-bold">Duplicates</small>
+                <h2 class="display-6 fw-bold my-2">{{ clean_report.duplicates_removed }}</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Charts Section -->
+    <div class="row mb-4">
+        {% if heatmap %}
+        <div class="col-lg-6 mb-3">
+            <div class="custom-card p-4 h-100">
+                <h5 class="fw-bold mb-3">Missing Values Heatmap</h5>
+                <img src="{{ MEDIA_URL }}{{ heatmap }}" class="img-fluid rounded shadow-sm border">
+            </div>
+        </div>
+        {% endif %}
+
+        {% if hist %}
+        <div class="col-lg-6 mb-3">
+            <div class="custom-card p-4 h-100">
+                <h5 class="fw-bold mb-3">Distribution Change</h5>
+                <img src="{{ MEDIA_URL }}{{ hist }}" class="img-fluid rounded shadow-sm border">
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+    <!-- Configuration Summary -->
+    <div class="card bg-light border-0 shadow-sm p-3">
+        <div class="d-flex align-items-center">
+            <i class="fa-solid fa-circle-info text-secondary fa-2x me-3"></i>
+            <div>
+                <h6 class="fw-bold mb-1">Process Summary</h6>
+                <p class="mb-0 text-muted small">
+                    <strong>Strategy:</strong> {{ clean_report.missing_strategy|title }} | 
+                    <strong>Outliers Removed:</strong> {{ clean_report.outliers|yesno:"Yes,No" }} | 
+                    <strong>Excluded:</strong> {{ clean_report.excluded_columns|default:"None"|join:", " }}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

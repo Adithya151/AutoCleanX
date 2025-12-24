@@ -1,0 +1,121 @@
+OrderID,CustomerName,Age,Gender,OrderAmount,OrderDate,Country,Email,PaymentMethod,Quantity,ProductCategory
+1094,steve jobs,,M,10000,04/10/2024,U.S.A,priya@gmail..com,card ,1,Cloths
+1026,John Doe,40,FEMALE,999,04-07-2024,U.S.A,rakesh@gmail.com,Card,50,clothes
+1094,John Doe,30,male,,15/07/2024,UK,anu@gmail,upi,1,ELECTRONICS
+1036, Priya,30,female,200,,UK,rakesh@gmail.com,CARD,5,CLOTH 
+1088, Priya,40,FEMALE,450,10-Sep-2024,INDIA ,sanjay@gmail.com,Upi ,3,Cloths
+1092, Priya,30,female,10000,01/01/2024,India,priya@gmail..com,card ,two,Cloths
+1080, Sanjay,25,female,"1,500",09-03-2024,U.S.A,anu@gmail..com,Card,50,clothes
+1057,steve jobs,, ,"1,500",07/03/2024,usa,johndoe@gmail..com,upi,3,ELECTRONICS
+1093,LIly ,35, ,1500,2024-05-24,UK,mohit@gmail.com,Card,5,Electronics
+1077,John Doe,35,FEMALE,200,,UK,rakesh@gmail.com,upi,two,Cloths
+1001,Alex  ,30,M,1500,04-26-2024,India,rakesh@gmail.com,CARD,4,clothes
+1088,Alex  ,30, ,,29/07/2024, united kingdom ,lily@gmail..com,card ,4,CLOTH 
+1003,John Doe,-5,Male,₹2000,26-Oct-2024,UK,mohit@gmail..com,Card,50,clothes
+1043, Sanjay,-5,female,5000,07-01-2024,United States,rakesh@gmail..com,cash,two,ELECTRONICS
+1068,Alex  ,30,F,,2024-10-10,usa,johndoe@gmail,cash,5,CLOTH 
+1057,Anu,40,FEMALE,10000,21-May-2024,India,mohit@gmail.com,cash,3,CLOTH 
+1098,mohit ,45,female,₹2000,02/10/2024,U.S.A,lily@gmail,cash,two,Cloths
+1062,mohit ,30,female,5000,01-06-2024,India,stevejobs@gmail..com,Upi ,5,Cloths
+1008, Priya,thirty, ,450,14/10/2024,india,mohit@gmail.com,Card,2,clothes
+1063,John Doe,45, ,5000,04-Apr-2024, united kingdom ,stevejobs@gmail.com,upi,4,CLOTH 
+1040,John Doe,,Male,5000,,usa,johndoe@gmail,cash,50,Cloths
+1018,   rakesh,25,male,10000,2024-05-04,INDIA ,lily@gmail..com,Card,1,ELECTRONICS
+1002,LIly ,40,FEMALE,999,2024-09-11, united kingdom ,johndoe@gmail.com,CARD,1,ELECTRONICS
+1014, Priya,-5, ,450,,U.S.A,rakesh@gmail,Upi ,4,ELECTRONICS
+1037, Sanjay,thirty,M,5000,09/05/2024,U.S.A,stevejobs@gmail.com,Cash,50,clothes
+1013,mohit ,45,FEMALE,1500,04-30-2024,INDIA ,johndoe@gmail.com,upi,,Cloths
+1014,mohit ,40,FEMALE,₹2000,08-15-2024,INDIA ,lily@gmail,upi,2,Electronics
+1043,Alex  ,,FEMALE,200,2024-08-14,india,priya@gmail.com,UPI ,,clothes
+1097,mohit ,35,female,450,2024-04-05,U.S.A,sanjay@gmail..com,Cash,two,electronics
+1079,Anu,35,female,200,2024-10-26,United States,rakesh@gmail.com,card ,3,clothes
+1077,   rakesh,25,Male,200,16/09/2024,UK,mohit@gmail.com,upi,4,Cloths
+1089,   rakesh,45,Male,10000,03-15-2024,U.S.A,priya@gmail,cash,5,Cloths
+1097,Alex  ,-5,FEMALE,₹2000,23-Jun-2024,usa,priya@gmail..com,Cash,50,Electronics
+1073,mohit ,25,F,450,11-Sep-2024,INDIA ,sanjay@gmail..com,Card,2,ELECTRONICS
+1053,mohit ,35,female,200,13/01/2024,india,priya@gmail,cash,5,CLOTH 
+1045,mohit ,-5,female,450,05-30-2024, united kingdom ,priya@gmail,card ,50,ELECTRONICS
+1068, Sanjay,25,female,450,2024-04-25,United States,mohit@gmail..com,Cash,5,ELECTRONICS
+1080,   rakesh,-5, ,,04-25-2024,U.S.A,anu@gmail.com,Upi ,3,ELECTRONICS
+1095,mohit ,35,Male,10000,01-Jun-2024,India,lily@gmail.com,CARD,two,Cloths
+1085,mohit ,30,FEMALE,450,04-19-2024,United States,anu@gmail.com,card ,5,Electronics
+1063, Priya,-5, ,₹2000,23-Apr-2024,india,sanjay@gmail.com,UPI ,50,ELECTRONICS
+1050,Alex  ,40,M,₹2000,03-08-2024,U.S.A,stevejobs@gmail,Upi ,1,ELECTRONICS
+1098,LIly ,30,FEMALE,999,2024-03-22,india,rakesh@gmail.com,UPI ,two,Electronics
+1073,LIly ,30,female,,02/04/2024,United States,rakesh@gmail..com,CARD,3,ELECTRONICS
+1019,Anu,40,male,₹2000,2024-07-01,usa,rakesh@gmail.com,cash,1,Cloths
+1060,mohit ,30,female,999,02-03-2024,UK,rakesh@gmail,UPI ,,ELECTRONICS
+1013, Priya,,FEMALE,450,2024-02-08,usa,mohit@gmail.com,Upi ,3,ELECTRONICS
+1041,steve jobs,40,M,,05-20-2024,U.S.A,stevejobs@gmail..com,card ,,ELECTRONICS
+1069,Anu,-5, ,,01-13-2024,INDIA ,rakesh@gmail..com,cash,,electronics
+1021,John Doe,40,M,5000,06-16-2024,usa,anu@gmail..com,card ,4,Cloths
+1061,John Doe,thirty,FEMALE,"1,500",04/07/2024,INDIA ,priya@gmail.com,CARD,3,clothes
+1071,LIly ,25,M,200,22-Jan-2024,United States,alex@gmail.com,cash,3,CLOTH 
+1085,Alex  ,thirty,Male,"1,500",08/01/2024,INDIA ,sanjay@gmail.com,CARD,1,clothes
+1089,John Doe,thirty, ,5000,2024-10-25,United States,mohit@gmail..com,cash,1,Electronics
+1042,John Doe,-5,FEMALE,,07-14-2024,india,alex@gmail.com,card ,1,CLOTH 
+1035, Priya,thirty,FEMALE,5000,2024-07-16,UK,alex@gmail..com,Card,3,clothes
+1037,steve jobs,30,male,₹2000,15-Apr-2024,United States,stevejobs@gmail..com,UPI ,2,electronics
+1031,LIly ,45, ,10000,05-Apr-2024,INDIA ,rakesh@gmail.com,Upi ,2,CLOTH 
+1092,Alex  ,45,Male,5000,2024-09-15,U.S.A,lily@gmail..com,Card,2,clothes
+1081,   rakesh,30,male,1500,31/08/2024,U.S.A,johndoe@gmail..com,Cash,two,CLOTH 
+1069,LIly ,30, ,999,04-15-2024,U.S.A,mohit@gmail..com,cash,50,electronics
+1065,John Doe,35,female,10000,2024-09-23,INDIA ,rakesh@gmail..com,Cash,4,Cloths
+1040,steve jobs,,female,₹2000,2024-04-21,usa,mohit@gmail..com,CARD,2,clothes
+1053,steve jobs,40,Male,1500,04-19-2024, united kingdom ,priya@gmail.com,UPI ,50,ELECTRONICS
+1052,John Doe,40,M,₹2000,15/07/2024,india,rakesh@gmail.com,UPI ,two,electronics
+1031,steve jobs,thirty,F,5000,02-15-2024, united kingdom ,mohit@gmail.com,UPI ,3,CLOTH 
+1084,steve jobs,40,FEMALE,1500,2024-04-30, united kingdom ,anu@gmail..com,Upi ,3,electronics
+1100,mohit ,-5, ,"1,500",2024-06-08,United States,alex@gmail.com,CARD,4,clothes
+1070, Priya,40,Male,450,2024-08-08,UK,johndoe@gmail.com,Card,5,Electronics
+1062,Alex  ,45,M,"1,500",,india,lily@gmail.com,UPI ,1,clothes
+1044,   rakesh,30,FEMALE,,01-22-2024,United States,stevejobs@gmail..com,UPI ,5,Cloths
+1048,steve jobs,-5,female,₹2000,02-19-2024,usa,lily@gmail..com,card ,,ELECTRONICS
+1070,   rakesh,40, ,₹2000,09/10/2024,india,sanjay@gmail.com,CARD,5,clothes
+1013, Sanjay,35,Male,,13/09/2024,U.S.A,rakesh@gmail..com,cash,two,clothes
+1011,John Doe,,M,10000,2024-08-02,INDIA ,johndoe@gmail.com,Card,3,CLOTH 
+1047, Sanjay,25,F,5000,28-Apr-2024,usa,priya@gmail.com,CARD,2,ELECTRONICS
+1050,   rakesh,35,male,1500,2024-04-13,INDIA ,priya@gmail.com,upi,50,clothes
+1010,Anu,-5,FEMALE,5000,, united kingdom ,sanjay@gmail,CARD,3,CLOTH 
+1076,Alex  ,thirty,Male,₹2000,06-26-2024, united kingdom ,lily@gmail,upi,two,CLOTH 
+1079,Anu,30,male,200,28-Jan-2024,UK,johndoe@gmail.com,UPI ,4,CLOTH 
+1033,   rakesh,30,Male,999,12-Jan-2024,U.S.A,mohit@gmail..com,Cash,1,Electronics
+1035,   rakesh,25,male,,2024-04-20,India,mohit@gmail.com,CARD,two,Cloths
+1065,   rakesh,40,Male,10000,2024-03-20,INDIA ,mohit@gmail.com,upi,2,clothes
+1083, Priya,30,male,5000,02-17-2024,usa,lily@gmail.com,upi,3,electronics
+1018,John Doe,thirty,female,450,2024-06-15,INDIA ,lily@gmail.com,upi,50,electronics
+1069,John Doe,45,male,200,07-03-2024,U.S.A,rakesh@gmail,Upi ,2,electronics
+1024,John Doe,25,Male,,2024-02-04,india,alex@gmail..com,Cash,,clothes
+1097,   rakesh,40,male,200,20/09/2024,U.S.A,lily@gmail,Upi ,5,CLOTH 
+1018, Sanjay,40, ,10000,2024-01-09,U.S.A,alex@gmail,card ,two,CLOTH 
+1034,Alex  ,thirty,female,,02-15-2024,INDIA ,mohit@gmail.com,Card,1,Cloths
+1050,John Doe,25,F,10000,12-Oct-2024, united kingdom ,anu@gmail,card ,2,Electronics
+1003, Sanjay,40,FEMALE,₹2000,02-05-2024, united kingdom ,rakesh@gmail..com,UPI ,3,Cloths
+1013,steve jobs,45,Male,,23-Jun-2024,India,johndoe@gmail..com,Cash,2,Cloths
+1004,John Doe,25,female,999,2024-07-14,INDIA ,priya@gmail.com,upi,50,clothes
+1021,John Doe,30,Male,5000,03/03/2024, united kingdom ,sanjay@gmail,Upi ,two,Cloths
+1006,Alex  ,thirty,Male,200,2024-07-29,U.S.A,alex@gmail.com,Cash,two,ELECTRONICS
+1060,steve jobs,35,FEMALE,5000,04-26-2024,INDIA ,alex@gmail,CARD,5,electronics
+1038,steve jobs,, ,,01-Jan-2024,United States,mohit@gmail.com,UPI ,50,clothes
+1097, Priya,40,FEMALE,5000,2024-10-25,INDIA ,mohit@gmail.com,Cash,3,CLOTH 
+1098,Alex  ,thirty,Male,450,11-Aug-2024,United States,lily@gmail..com,Upi ,,Cloths
+1087,steve jobs,30,M,200,2024-01-06,United States,sanjay@gmail,card ,1,Cloths
+1078, Sanjay,25,M,450,05-30-2024,india,priya@gmail.com,UPI ,1,CLOTH 
+1054, Sanjay,30,M,450,05-13-2024, united kingdom ,priya@gmail.com,card ,two,clothes
+1027,steve jobs,45,Male,200,2024-07-07,U.S.A,anu@gmail.com,upi,3,clothes
+1072,steve jobs,30, ,,29/08/2024,India,mohit@gmail..com,UPI ,2,CLOTH 
+1085,mohit ,35,F,1500,2024-09-27,UK,rakesh@gmail.com,CARD,two,Electronics
+1030, Sanjay,-5,Male,1500,13/02/2024,UK,sanjay@gmail.com,Upi ,2,Cloths
+1034, Priya,-5,M,1500,21-May-2024,INDIA ,priya@gmail..com,cash,4,electronics
+1004, Sanjay,thirty,male,₹2000,03-Jul-2024,usa,stevejobs@gmail..com,CARD,4,ELECTRONICS
+1077, Sanjay,25,Male,999,24-Aug-2024,usa,johndoe@gmail.com,UPI ,two,electronics
+1027,LIly ,35,male,200,05-17-2024,india,lily@gmail.com,CARD,two,clothes
+1068, Sanjay,25,F,5000,13-May-2024,usa,priya@gmail.com,UPI ,5,electronics
+1075,mohit ,25,female,,06-16-2024,usa,alex@gmail..com,card ,3,clothes
+1010,Alex  ,, ,₹2000,23/07/2024,india,sanjay@gmail.com,Upi ,,electronics
+1050, Sanjay,35, ,200,03-15-2024,usa,sanjay@gmail.com,UPI ,1,clothes
+1041, Sanjay,35,F,999,05/03/2024,UK,lily@gmail.com,UPI ,two,ELECTRONICS
+1098,Alex  ,40,Male,10000,10-23-2024, united kingdom ,anu@gmail.com,Cash,two,electronics
+1072,   rakesh,30,female,₹2000,,usa,mohit@gmail.com,cash,4,ELECTRONICS
+1062, Sanjay,,female,200,17-Jan-2024,United States,priya@gmail..com,CARD,,Electronics
+1036,LIly ,thirty,Male,10000,2024-10-03,UK,stevejobs@gmail.com,Upi ,3,electronics

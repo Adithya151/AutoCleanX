@@ -1,0 +1,106 @@
+{% extends "cleaner/base.html" %}
+{% block content %}
+
+<h3 class="fw-bold mb-4">AutoCleanX</h3>
+
+<form method="POST">
+    {% csrf_token %}
+
+    <!-- STRUCTURAL -->
+    <div class="card p-4 mb-4">
+        <h5>Structural Cleaning</h5>
+
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="normalize_text">
+            <label class="form-check-label">Normalize text (lowercase & trim)</label>
+        </div>
+    </div>
+
+    <!-- DATA TYPE -->
+    <div class="card p-4 mb-4">
+        <h5>Data Type Conversion</h5>
+
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="auto_numeric">
+            <label class="form-check-label">Convert numeric-like strings</label>
+        </div>
+
+        <div class="form-check mt-2">
+            <input class="form-check-input" type="checkbox" name="auto_datetime">
+            <label class="form-check-label">Auto-detect datetime columns</label>
+        </div>
+    </div>
+
+    <!-- MISSING VALUES -->
+    <div class="card p-4 mb-4">
+        <h5>Missing Value Handling</h5>
+
+        <select name="missing" class="form-select">
+            <option value="none">No Action</option>
+            <option value="mean">Mean (Numeric)</option>
+            <option value="median">Median (Numeric)</option>
+            <option value="mode">Mode (Categorical)</option>
+            <option value="drop">Drop Rows</option>
+        </select>
+    </div>
+
+    <!-- OUTLIERS -->
+    <div class="card p-4 mb-4">
+        <h5>Outlier Handling</h5>
+
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" name="outliers">
+            <label class="form-check-label">Remove outliers using IQR</label>
+        </div>
+    </div>
+
+    <!-- ENCODING -->
+    <div class="card p-4 mb-4">
+        <h5>Categorical Encoding</h5>
+
+        <select name="encoding" class="form-select">
+            <option value="none">No Encoding</option>
+            <option value="label">Label Encoding</option>
+            <option value="onehot">One-Hot Encoding</option>
+        </select>
+    </div>
+
+    <!-- SCALING -->
+    <div class="card p-4 mb-4">
+        <h5>Feature Scaling</h5>
+
+        <select name="scaling" class="form-select">
+            <option value="none">No Scaling</option>
+            <option value="minmax">Min-Max Scaling</option>
+            <option value="standard">Standard Scaling</option>
+        </select>
+    </div>
+
+    <!-- LOGICAL VALIDATION -->
+    <div class="card p-4 mb-4">
+        <h5>Logical Validation</h5>
+
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="logical_validation">
+            <label class="form-check-label">Remove invalid negative values</label>
+        </div>
+    </div>
+
+    <!-- COLUMN EXCLUSION -->
+    <div class="card p-4 mb-4">
+        <h5>Exclude Columns</h5>
+
+        {% for col in columns %}
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="exclude" value="{{ col }}">
+            <label class="form-check-label">{{ col }}</label>
+        </div>
+        {% endfor %}
+    </div>
+
+    <button type="submit" class="btn btn-success btn-lg">
+        Run Cleaning
+    </button>
+</form>
+
+{% endblock %}
