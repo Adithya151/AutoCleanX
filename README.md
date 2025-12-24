@@ -49,8 +49,9 @@
 ## 📸 Application Preview
 
 <p align="center">
-  <img src="[screenshots/frontend.png](https://github.com/Adithya151/AutoCleanX/blob/main/Screenshot%202025-12-24%20193614.png)" width="600" alt="AutoCleanX Dashboard"/>
+  <img src="https://github.com/Adithya151/AutoCleanX/blob/main/Screenshot%202025-12-24%20193614.png?raw=true" width="600" alt="AutoCleanX Dashboard"/>
 </p>
+
 
 ---
 
